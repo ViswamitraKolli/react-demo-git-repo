@@ -14,9 +14,10 @@ const [post,setPost] = useState({});
       }
   return (
     <div>Post
-        
+         
             <p>{post.body}</p>
         
+        <button onClick={loadPost}>Get Post</button>
         <button onClick={loadPost}>Get Post</button>
     </div>
     
