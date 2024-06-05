@@ -20,6 +20,7 @@ const [post,setPost] = useState({});
         <button onClick={loadPost}>Get Post</button>
         <button onClick={loadPost}>Get Post</button>
         <button onClick={loadPost}>Get Post</button>
+        <button onClick={loadPost}>Get Post</button>
     </div>
     
   )
